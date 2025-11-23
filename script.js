@@ -1,0 +1,1 @@
+function generatePrompt(){const c=document.getElementById("category").value;const d=document.getElementById("details").value;document.getElementById("output").value=`Create a ${c} prompt about: ${d}`;}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Prompt Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">AI Prompt Hub</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#generator">Generator</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    <h1>AI Prompt Generator</h1>
+    <p>Scroll down to get your perfect AI prompt!</p>
+  </section>
+  <section class="affiliate">
+    <h2>🔥 Tools You NEED To Use</h2>
+    <p>These links help support the site (no extra cost to you):</p>
+    <a class="affiliate-box" href="#">Best AI Tool #1 →</a>
+    <a class="affiliate-box" href="#">Best AI Tool #2 →</a>
+    <a class="affiliate-box" href="#">Cheapest AI Option →</a>
+  </section>
+  <section id="generator" class="generator-section">
+    <h2>AI Prompt Generator</h2>
+    <select id="category">
+      <option value="chatgpt">ChatGPT</option>
+      <option value="midjourney">Midjourney</option>
+      <option value="coder">Coding</option>
+      <option value="homework">Homework</option>
+      <option value="fitness">Fitness</option>
+    </select>
+    <textarea id="details" placeholder="Describe what you want..."></textarea>
+    <button onclick="generatePrompt()">Generate Prompt</button>
+    <textarea id="output" readonly placeholder="Your prompt will appear here..."></textarea>
+  </section>
+  <section id="faq" class="faq-section">
+    <h2>FAQ — Quick Answers</h2>
+    <div class="faq-item"><h3>What does this AI Prompt Generator do?</h3><p>It creates perfect prompts.</p></div>
+    <div class="faq-item"><h3>Is it free?</h3><p>Yes!</p></div>
+    <div class="faq-item"><h3>Can I use the prompts anywhere?</h3><p>Yes — all major AI tools.</p></div>
+  </section>
+  <footer class="footer"><p>© 2025 AI Prompt Hub • <a href="blog.html">Visit Blog</a></p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
